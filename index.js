@@ -62,6 +62,7 @@ reset.addEventListener('click', () => {
 for (let i = 0; i <= 5; i++) {
     arr[i].addEventListener('click', () => {
         arr[i].style.background = '#23C4AF';
+        arr[i].style.color = '#02484B';
         tipValue = percentSelect[i];
         for (let y = 0; y <= 5; y++) {
             if (y !== i) {
