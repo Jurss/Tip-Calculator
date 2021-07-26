@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+* {
+    font-family: 'Space Mono';
+}
+
+body {
+    margin: 0;
+    background: #C6E5E8;
+    font-family: spacemono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainContainer {
+    background: #FEFEFE;
+    width: 50vw;
+    height: 50vh;
+    min-height: 450px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: spacemono;
+}
+
+#grid1 {
+    width: 45%;
+    height: 90%;
+}
+
+#grid1>* {
+    margin-left: 5%;
+}
+
+.input {
+    background: #F9FBFC;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input2 {
+    background: #F9FBFC;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#custom {
+    font-size: 20px;
+}
+
+#tip {
+    width: 100%;
+}
+
+#selctTip {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#selectTip>button {
+    margin-top: 5px;
+    width: 25%;
+    height: 30px;
+    background: #02484B;
+    color: white;
+}
+
+#grid2 {
+    width: 45%;
+    height: 90%;
+    border-radius: 18px;
+    background: #02484B;
+}
+
+#amout,
+#total {
+    height: 33%;
+    margin-left: 5%;
+    color: white;
+}
+
+#reset {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset>button {
+    background: #23C4AF;
+    width: 84%;
+    height: 40px;
+    border-radius: 12px;
+    color: #02484B;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.clickedBtn {
+    background: #23C4AF;
+}
+
+#custom {
+    max-width: 100px;
+}
+
+#calcul {
+    margin-top: 20px;
+    background: #02484B;
+    width: 84%;
+    height: 40px;
+    border-radius: 12px;
+    color: #23C4AF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#amoutNB,
+#totalNB {
+    color: #23C4AF;
+    float: right;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: -15%;
+    margin-right: 10%;
+}

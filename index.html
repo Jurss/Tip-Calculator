@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SPLI<br />TTER</h1>
+    <div id="mainContainer">
+        <div id="grid1">
+            <h2>Bill</h2>
+            <div class="input">
+                <img src="images/icon-dollar.svg" alt="dollar">
+                <input id="input1" type="text" placeholder="0">
+            </div>
+            <div id="tip">
+                <h2>Select Tip %</h2>
+                <div id="selectTip">
+                    <button id="5">5%</button>
+                    <button id="10">10%</button>
+                    <button id="15">15%</button>
+                    <button id="25">25%</button>
+                    <button id="50">50%</button>
+                    <input id="custom" type="text" placeholder="custom">
+                </div>
+
+                <h2>Number Of People</h2>
+                <div class="input">
+                    <img src="images/icon-person.svg" alt="person">
+                    <input id="people" type="text" placeholder="0">
+                </div>
+            </div>
+            <button id="calcul">Calcul</button>
+        </div>
+        <div id="grid2">
+            <div id="amout">
+                <h2>Tip Amout</h2>
+                <p>/ person</p>
+                <p id="amoutNB">$ 0.00</p>
+            </div>
+            <div id="total">
+                <h2>total</h2>
+                <p id="totalNB">$ 0.00</p>
+            </div>
+            <div id="reset">
+                <button id="resetBtn">RESET</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Jurss?tab=repositories" target="blank">Rémi Dutombois</a>. Portfolio:
+        <a href="https://www.remidutombois.fr/" target="blank">remidutombois.fr</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
