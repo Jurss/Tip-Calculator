@@ -168,7 +168,7 @@ button {
     }
 }
 
-@media screen and (max-width: 375pc) {
+@media screen and (max-width: 375px) {
     h1 {
         letter-spacing: 8px;
     }
